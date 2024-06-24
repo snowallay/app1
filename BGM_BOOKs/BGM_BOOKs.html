@@ -52,9 +52,7 @@ img.music_button:hover{
 img.music_button:active{
 	position: relative;
 	top: 3px;
-	:root {
-  --book-open: 1;
-}
+	getbook_open()
 }
 </style>
 </head>
@@ -83,19 +81,10 @@ img.music_button:active{
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/back_button.png" width="33%" height="33%" class="music_button" Ontouchstart="">
 </div>
 <script>
-<!--CSS変更の値を取得-->
-const SelectElement = document.querySelector('.box');
-const SelectStyle = getComputedStyle(SelectElement);
-const StyleValue = String(SelectStyle.getPropertyValue('--book-open')).trim();
-<script type="text/javascript">
-if (const SelectElement = document.querySelector('.box');
-const SelectStyle = getComputedStyle(SelectElement);
-const StyleValue = String(SelectStyle.getPropertyValue('--book-open')).trim();) {
-  document.write('<img id="book_pags_true" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png">');
-} else {
-  document.write('<img id="book_pags_folse" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png">');
+function book_open() {
+  document.write('<img id="carousel__main" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png">');
+  return message
 }
- 
 </script>
 </body>
 </html>
