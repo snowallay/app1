@@ -67,7 +67,7 @@ img.music_button:active{
 <br>
 <div style="text-align: center">
 <img src="" alt="" id="book_pegs" /><br>
-<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png" width="33%" height="33%" class="music_button" Ontouchstart="" id="music_button" onClick="book_open()">
+<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png" width="33%" height="33%" class="music_button" Ontouchstart="" id="music_button" onClick="book_open1(),book_open2(),book_open3(),book_open4()">
 </div>
 <br>
 <br>
@@ -80,19 +80,24 @@ img.music_button:active{
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/back_button.png" width="33%" height="33%" class="music_button" id="back_button"Ontouchstart="">
 </div>
 <script>
-function book_open() {
+function book_open1() {
   const image = document.querySelector("#book_pegs");
   image.src = "https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png";
-	
+return message
+}
+function book_open2() {
 const image = document.querySelector("#music_button");
   image.src = "";
-	
+return message
+}
+function book_open3() {
 const image = document.querySelector("#seting_button");
   image.src = "";
-	
+return message
+}
+function book_open4() {
 const image = document.querySelector("#back_button");
   image.src = "";
-	
   return message
 }
 </script>
