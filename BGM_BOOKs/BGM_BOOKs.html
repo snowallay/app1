@@ -82,5 +82,18 @@ img.music_button:active{
 <div style="text-align: center">
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/back_button.png" width="33%" height="33%" class="music_button" Ontouchstart="">
 </div>
+<script>
+<!--CSS変更の値を取得-->
+const SelectElement = document.querySelector('.box');
+const SelectStyle = getComputedStyle(SelectElement);
+const StyleValue = String(SelectStyle.getPropertyValue('--book-open')).trim();
+<script type="text/javascript">
+if (--book-open) {
+  document.write('<img id="book_pags" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png">');
+} else {
+  console.log('false');
+}
+ 
+</script>
 </body>
 </html>
