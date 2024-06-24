@@ -89,9 +89,9 @@ const SelectStyle = getComputedStyle(SelectElement);
 const StyleValue = String(SelectStyle.getPropertyValue('--book-open')).trim();
 <script type="text/javascript">
 if (--book-open) {
-  document.write('<img id="book_pags" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png">');
+  document.write('<img id="book_pags_true" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png">');
 } else {
-  console.log('false');
+  document.write('<img id="book_pags_folse" src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png">');
 }
  
 </script>
