@@ -59,33 +59,41 @@ img.music_button:active{
   display: none;
 }
 </style>
+<style>
+01 {
+  text-align:center;
+}
+</style>
+<style>
+
+</style>
 </head>
 <body style="background-image: url(https://snowallay.github.io/app1/BGM_BOOKs/bags1.png); background-size: cover; background-color:#A7FFFF;">
 <br>
 <br>
 <br>
-<div style="text-align: center" >
-<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png" alt="" id="book_pegs" width="66%" height="66%" class="book_pegs" display: inline;  margin: auto;/><br>
-</div>
+<01>
+<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png" alt="" id="book_pegs" width="66%" height="66%" class="book_pegs" /><br>
+</01>
 <br>
 <br>
 <br>
 <br>
 <br>
-<div style="text-align: center">
+<01>
 <br>
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png" width="33%" height="33%" class="music_button" Ontouchstart="" id="music_button" onClick="book_open1()">
-</div>
+</01>
 <br>
 <br>
-<div style="text-align: center">
+<01>
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png" width="33%" height="33%" class="music_button" id="seting_button" Ontouchstart="">
-</div>
+</01>
 <br>
 <br>
-<div style="text-align: center">
+<01>
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/back_button.png" width="33%" height="33%" class="music_button" id="back_button"Ontouchstart="">
-</div>
+</01>
 <script>
 function book_open1() {
 var e = document.getElementById("book_pegs");
@@ -111,9 +119,6 @@ var e = document.getElementById("back_button");
 e.style.display = "none";
 
 var e = document.getElementById("book_pegs");
-e.style.display = "inline";
-
-book_pegs.style.textAlign = "center";
 
 }
 </script>
