@@ -60,25 +60,20 @@ img.music_button:active{
 }
 </style>
 <style>
-.center1 {
-  text-align: center;
-}
-.center2 {
-  display: inline-block;
-  width: 100px;
+01 {
+  text-align:center;
 }
 </style>
+<style>
+
+</style>
 </head>
-<body style="background-image: url(https://snowallay.github.io/app1/BGM_BOOKs/bags1.png); background-size: cover; background-color:Alice blue;">
+<body style="background-image: url(https://snowallay.github.io/app1/BGM_BOOKs/bags1.png); background-size: cover; background-color:#A7FFFF;">
 <br>
 <br>
 <br>
-<div class="center1">
-  <div class="center2">
-    <div style="text-align: center">
-      <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png" alt="" id="book_pegs" width="66%" height="66%" class="book_pegs" /><br>
-    </div>
-  </div>
+<div style="text-align: center">
+<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png" alt="" id="book_pegs" width="66%" height="66%" class="book_pegs" /><br>
 </div>
 <br>
 <br>
@@ -102,16 +97,29 @@ img.music_button:active{
 <script>
 function book_open1() {
 var e = document.getElementById("book_pegs");
-e.style.display = block;
+e.style.display = "block";
 
 var e = document.getElementById("music_button");
-e.style.display = 'none';
+e.style.display = "none";
 
 var e = document.getElementById("seting_button");
-e.style.display = 'none';
+e.style.display = "none";
 
 var e = document.getElementById("back_button");
-e.style.display = 'none';
+e.style.display = "none";
+}
+function button0() {
+var e = document.getElementById("music_button");
+e.style.display = "none";
+
+var e = document.getElementById("seting_button");
+e.style.display = "none";
+
+var e = document.getElementById("back_button");
+e.style.display = "none";
+
+var e = document.getElementById("book_pegs");
+
 }
 </script>
 </body>
