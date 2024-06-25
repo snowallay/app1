@@ -66,13 +66,13 @@ img.music_button:active{
 <br>
 <br>
 <div style="text-align: center">
-<img src="" alt="" id="book_pegs" width="50%" height="50%" /><br>
+<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png" alt="" id="book_pegs" width="50%" height="50%" /><br>
 <img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/music_button.png" width="33%" height="33%" class="music_button" Ontouchstart="" id="music_button" onClick="book_open1()">
 </div>
 <br>
 <br>
 <div style="text-align: center" id="seting">
-<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png" width="33%" height="33%" class="music_button" id="seting_button" Ontouchstart="" onClick="button0()">
+<img src="https://snowallay.github.io/app1/BGM_BOOKs/imgs/seting_button.png" width="33%" height="33%" class="music_button" id="seting_button" Ontouchstart="">
 </div>
 <br>
 <br>
@@ -81,20 +81,28 @@ img.music_button:active{
 </div>
 <script>
 function book_open1() {
-  const image = document.querySelector("#book_pegs");
-  image.src = "https://snowallay.github.io/app1/BGM_BOOKs/imgs/book_pegs.png";
-return message
+var e = document.getElementById("book_pegs");
+e.style.display = "block";
+
+var e = document.getElementById("music_button");
+e.style.display = "none";
+
+var e = document.getElementById("seting_button");
+e.style.display = "none";
+
+var e = document.getElementById("back_button");
+e.style.display = "none";
 }
 function button0() {
-const image = document.querySelector("#music_button");
-  image.src = "";
+var e = document.getElementById("music_button");
+e.style.display = "none";
 
-const image = document.querySelector("#seting_button");
-  image.src = "";
+var e = document.getElementById("seting_button");
+e.style.display = "none";
 
-const image = document.querySelector("#back_button");
-  image.src = "";
-  return message
+var e = document.getElementById("back_button");
+e.style.display = "none";
+
 }
 </script>
 </body>
